@@ -1,0 +1,2 @@
+# whisper_demo
+OpenAIによって公開されているWhisperをDockerより駆動させるデモリポジトリ
