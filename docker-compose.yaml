@@ -1,0 +1,19 @@
+version: '3'
+services:
+  whisper:
+    build: 
+      context: .
+      dockerfile: 'Dockerfile'
+    image: whisper
+    container_name: whisper
+    volumes:
+      - ./:/workspace
+
+    # GPU
+    deploy: 
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
