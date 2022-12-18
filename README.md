@@ -1,6 +1,7 @@
 # whisper_demo
 OpenAIによって公開されているWhisperをDockerより駆動させるデモリポジトリ
 
+
 # devices
 - Windows11
 - WSL2
